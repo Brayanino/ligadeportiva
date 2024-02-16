@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url('../assets/fondo1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+    min-height: 100vh;
+}

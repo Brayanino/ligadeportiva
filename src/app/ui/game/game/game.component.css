@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #030b0e;
+    width: 100%;
+}
+
+.loggin {
+    position: absolute;
+    right: 0;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.name {
+    position: absolute;
+    left: 0;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #4aa49f;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.ntf{
+    user-select: none;
+    border: 1px solid #ffffff22;
+    background-color: #282c34;
+    background: linear-gradient(0deg, rgba(40, 44, 52, 1) 0%, rgba(17, 0, 32, .5) 100%);
+    box-shadow: 0 7px 20px 5px #00000088;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    overflow: hidden;
+    transition: .5s all;
+}

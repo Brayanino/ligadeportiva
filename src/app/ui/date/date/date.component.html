@@ -1,0 +1,26 @@
+
+<br><br>
+<div class="padre">
+    <div class="hijo">
+        <div class="nft">
+            <div class='main'>
+                <h2>Cronograma</h2>
+                <h3 class='description'>Estos serán los días en los que se jugarán las próximas fechas.</h3>
+                <div class='tokenInfo space' *ngFor="let calendarGame of calendarGames">
+                    <div class="price">
+                        <ins>◘</ins>
+                        <h3>Fecha {{calendarGame.id}} se jugara el:</h3>
+                    </div>
+                    <div class="duration">
+                        <ins>◷</ins>
+                        <h3>{{calendarGame.fechaTexto}}</h3>
+                    </div>
+                </div>
+                <hr />
+                <div class='creator'>
+                    <p><ins>Liga Oriental</ins></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

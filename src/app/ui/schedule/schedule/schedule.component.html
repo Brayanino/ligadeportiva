@@ -1,0 +1,25 @@
+<br><br>
+<div class="padre">
+    <div class="hijo space">
+        <div class="nft" *ngFor="let match of matches">
+            <div class='main'>
+                <div class='creator'>
+                    <p><ins>{{match.nombreLocal}} VS {{match.nombreVisita}}</ins></p>
+                </div>
+                <div class='tokenInfo'>
+                    <div class="price img">
+                        <p><img src="../../../../assets/equipo1.png" /></p>
+                    </div>
+                    VS
+                    <div class="tokenInfo">
+                        <p><img src="../../../../assets/equipo1.png" /></p>
+                    </div>
+                </div>
+                <hr />
+                <h2>{{match.fechaTexto}}</h2>
+                <p class='description'>{{match.fechaNumeroTexto}} {{match.descripcionEstado}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br>
